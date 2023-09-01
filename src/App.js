@@ -39,6 +39,7 @@ function App() {
   }
 
   const handlePic = async () => {
+    console.log('project update')
     handleWrite()
   }
 
