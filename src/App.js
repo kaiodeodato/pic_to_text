@@ -39,12 +39,11 @@ function App() {
   }
 
   const handlePic = async () => {
-    console.log('project update')
     handleWrite()
   }
 
   const handleWrite = async () => {
-    console.log('write');
+    console.log('project update')
     Tesseract.recognize(
       url,
       'eng',
