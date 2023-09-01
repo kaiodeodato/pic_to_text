@@ -68,8 +68,8 @@ function App() {
   return (
     <div className="App">
       <LoadingBar
-        waitingTime="18000"
-        loaderSpeed="18000"
+        waitingTime="10000"
+        loaderSpeed="10000"
         color="#02D35E"
         progress={progress}
         onLoaderFinished={() => handlePic()}
